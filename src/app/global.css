@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(78, 140, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 140, 221, 1) 0%,
+    rgba(127, 178, 244, 1) 49%,
+    rgba(112, 167, 238, 1) 100%,
+    rgba(237, 237, 237, 1) 100%
+  );
+}
+
+.container {
+  margin: 6rem auto;
+  max-width: 30rem;
+}
+
+.container h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
